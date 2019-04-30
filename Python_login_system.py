@@ -5,15 +5,16 @@ import math
 import sys
 import easygui as gui
 from tkinter import Tk
+from easygui import *
 
 #授权
 print("PYTHON LOGIN SYSTEM\nPOWER BY JACOBDUAN")
 
 #界面
 signup = gui.passwordbox(msg = "If you don't havce the code send a email to jacobduan2022@163.com to get the code", title = "Python login system")
-if signup == "Join":
-      jos = gui.passwordbox(msg = "Type signin if you have an account, type sighup if you don't have an account", title = "Python login system")
-      if jos == "signup":
+if signup == "join":
+      jos = gui.choicebox(msg = "Sign in if you have an account, sigh up if you don't have an account", choices = ["I have an account", "I don't have an account"], title = "Python login system")
+      if jos == "I don't have an account":
             gui.msgbox(msg = "Welcome to Pythom login system\nLogin succesfully", title = "Python login system")
             gui.enterbox(msg = "Welcome to Python login system \nEnter your name(Can be your fake name)", title = "Python login system")
             gui.enterbox(msg = "Now type your email here and the system will send you an email", title = "Python login system")
