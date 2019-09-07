@@ -7,6 +7,7 @@ After you install Python
 pip3 install easygui
 Then you can run:
 python3 file.py
+
 ------------------------------------------------------------------------------------
 **Caution:**
 
@@ -15,6 +16,7 @@ Do not look at the source code of the file
 The file will only be used for this game
 Don't use your real email or name while you are playing the game
 It might take a while to run the game
+
 ------------------------------------------------------------------------------------
 
 **Usage:**
