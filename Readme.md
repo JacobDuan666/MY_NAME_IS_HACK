@@ -37,8 +37,13 @@ You need to hack the Python_login_system to get THE CODE, then write it into FIN
 ------------------------------------------------------------------------------------
 **Version:**
 
+0.1.31
+Change log:
+-Solved the waterf0x bug
+
 0.1.30
 Change log:
+-Solved the HUGEHARD System bugs
 -The beta version of HUGEHARD System have been done
 -Add the story
 -Most of the application have been moved into the HUGEHARD_System.py, but still a few applications have not moved into the HUGEHARD System
